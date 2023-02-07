@@ -1,0 +1,16 @@
+Feb 07 21:12:04.669 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 07 21:12:04.669 HYPERVISOR: Started on IP = localhost, TCP port = 53614.
+Feb 07 21:12:04.962 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 07 21:12:04.963 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\giddy\GNS3\projects\VPN diploma thesis FIXED\project-files\dynamips 
+Feb 07 21:12:04.967 GENERAL: working_dir=C:\Users\giddy\GNS3\projects\VPN diploma thesis FIXED\project-files\dynamips
+Feb 07 21:12:04.968 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Feb 07 21:12:08.275 HYPERVISOR: exec_cmd: nio create_udp udp-e40f3905-74ea-411f-ba2c-b913ee5710f8 2003 127.0.0.1 2001 
+Feb 07 21:12:08.276 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-e40f3905-74ea-411f-ba2c-b913ee5710f8 
+Feb 07 21:12:08.297 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-e40f3905-74ea-411f-ba2c-b913ee5710f8 1 
+Feb 07 21:12:08.525 HYPERVISOR: exec_cmd: nio create_udp udp-eeae2c9f-b24a-4edd-8e1d-8c070fd18213 2013 127.0.0.1 2015 
+Feb 07 21:12:08.525 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-eeae2c9f-b24a-4edd-8e1d-8c070fd18213 
+Feb 07 21:12:08.550 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-eeae2c9f-b24a-4edd-8e1d-8c070fd18213 1 
+Feb 07 21:12:23.302 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Feb 07 21:12:23.360 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 07 21:12:23.688 HYPERVISOR: Stopped.
+Feb 07 21:12:23.688 GENERAL: reset done.
